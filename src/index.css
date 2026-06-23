@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 168 33% 98%;
+    --foreground: 175 31% 13%;
+    --card: 0 0% 100%;
+    --card-foreground: 175 31% 13%;
+    --primary: 171 52% 28%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 18 79% 92%;
+    --secondary-foreground: 14 57% 29%;
+    --muted: 170 18% 94%;
+    --muted-foreground: 177 10% 39%;
+    --accent: 166 44% 91%;
+    --accent-foreground: 171 52% 24%;
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 172 19% 83%;
+    --input: 172 19% 83%;
+    --ring: 171 52% 32%;
+    --radius: 0.5rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family:
+      Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
