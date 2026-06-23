@@ -111,7 +111,7 @@ function App() {
         </div>
       </header>
 
-      <section id="top" className="relative border-b border-border/70 bg-[#f7fbfa]">
+      <section id="top" className="relative border-b border-border/70 bg-[#f7fbfa]" aria-labelledby="hero-title">
         <div className="container grid min-h-[calc(100vh-4rem)] items-center gap-10 py-12 lg:grid-cols-[0.88fr_1.12fr] lg:py-16">
           <div className="max-w-2xl">
             <div className="mb-5 inline-flex items-center gap-2 rounded-md border border-[#b9ddd4] bg-white px-3 py-1.5 text-sm font-medium text-[#18685b] shadow-sm">
@@ -120,7 +120,7 @@ function App() {
             </div>
             <div className="flex items-center gap-4">
               <SuperGardeLogo className="hidden h-16 w-16 sm:block" />
-              <h1 className="max-w-3xl text-4xl font-semibold tracking-normal text-balance sm:text-5xl lg:text-6xl">
+              <h1 id="hero-title" className="max-w-3xl text-4xl font-semibold tracking-normal text-balance sm:text-5xl lg:text-6xl">
                 Super-Garde
               </h1>
             </div>
@@ -156,11 +156,11 @@ function App() {
         </div>
       </section>
 
-      <section id="benefices" className="bg-white py-16 sm:py-20">
+      <section id="benefices" className="bg-white py-16 sm:py-20" aria-labelledby="benefices-title">
         <div className="container">
           <div className="max-w-2xl">
             <p className="text-sm font-semibold uppercase tracking-wide text-[#c65a3d]">Une scolarité plus fluide</p>
-            <h2 className="mt-3 text-3xl font-semibold tracking-normal sm:text-4xl">
+            <h2 id="benefices-title" className="mt-3 text-3xl font-semibold tracking-normal sm:text-4xl">
               Remplacer les fichiers dispersés par un pilotage lisible.
             </h2>
           </div>
@@ -180,11 +180,13 @@ function App() {
         </div>
       </section>
 
-      <section className="border-y border-border/70 bg-[#162d2b] py-14 text-white">
+      <section className="border-y border-border/70 bg-[#162d2b] py-14 text-white" aria-labelledby="adoption-title">
         <div className="container grid gap-8 lg:grid-cols-[0.85fr_1.15fr] lg:items-center">
           <div>
             <p className="text-sm font-semibold uppercase tracking-wide text-[#f2b08e]">Adoption terrain</p>
-            <h2 className="mt-3 text-3xl font-semibold tracking-normal">Chaque acteur garde son niveau de lecture.</h2>
+            <h2 id="adoption-title" className="mt-3 text-3xl font-semibold tracking-normal">
+              Chaque acteur garde son niveau de lecture.
+            </h2>
           </div>
           <div className="grid gap-3 sm:grid-cols-2">
             {faculties.map((item) => (
@@ -197,11 +199,11 @@ function App() {
         </div>
       </section>
 
-      <section id="contact" className="bg-[#f7fbfa] py-16 sm:py-20">
+      <section id="contact" className="bg-[#f7fbfa] py-16 sm:py-20" aria-labelledby="contact-title">
         <div className="container grid gap-10 lg:grid-cols-[0.92fr_1.08fr] lg:items-center">
           <div>
             <p className="text-sm font-semibold uppercase tracking-wide text-[#c65a3d]">Contact</p>
-            <h2 className="mt-3 text-3xl font-semibold tracking-normal sm:text-4xl">
+            <h2 id="contact-title" className="mt-3 text-3xl font-semibold tracking-normal sm:text-4xl">
               Parlons de vos rotations de garde.
             </h2>
             <p className="mt-4 max-w-xl leading-7 text-muted-foreground">

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Super-Garde - Gestion des gardes médicales</title>
+  <desc id="desc">Aperçu de partage social pour Super-Garde.</desc>
+  <rect width="1200" height="630" fill="#f7fbfa"/>
+  <rect x="72" y="72" width="1056" height="486" rx="24" fill="#ffffff" stroke="#bdd5cf" stroke-width="2"/>
+  <rect x="120" y="126" width="96" height="96" rx="22" fill="#18685b"/>
+  <path d="M144 154.5c0-5.2 4.3-9.5 9.5-9.5h69c5.2 0 9.5 4.3 9.5 9.5v69c0 5.2-4.3 9.5-9.5 9.5h-69c-5.2 0-9.5-4.3-9.5-9.5v-69Z" fill="#f7fbfa"/>
+  <path d="M163 145v-12M213 145v-12M144 174h88" stroke="#f2a078" stroke-width="8" stroke-linecap="round"/>
+  <path d="m169 205 15 14 31-36" stroke="#18685b" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m155 250 33-19 33 19" stroke="#f2a078" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="256" y="168" fill="#153e3a" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="52" font-weight="700">Super-Garde</text>
+  <text x="256" y="218" fill="#18685b" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="28" font-weight="600">Logiciel de gestion des gardes médicales</text>
+  <text x="120" y="330" fill="#153e3a" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="48" font-weight="700">Planifier, suivre et ajuster les gardes</text>
+  <text x="120" y="384" fill="#5a6a67" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="28">Une plateforme pensée pour les facultés de médecine,</text>
+  <text x="120" y="424" fill="#5a6a67" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="28">les responsables de stage et les équipes de scolarité.</text>
+  <rect x="120" y="482" width="248" height="48" rx="8" fill="#e5f4ef"/>
+  <text x="144" y="514" fill="#18685b" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="20" font-weight="700">Planning centralisé</text>
+  <rect x="392" y="482" width="230" height="48" rx="8" fill="#fff0e8"/>
+  <text x="416" y="514" fill="#a4462e" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="20" font-weight="700">Permutations tracées</text>
+  <rect x="646" y="482" width="226" height="48" rx="8" fill="#e5f4ef"/>
+  <text x="670" y="514" fill="#18685b" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="20" font-weight="700">Suivi administratif</text>
+</svg>

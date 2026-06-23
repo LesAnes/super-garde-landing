@@ -13,9 +13,12 @@ Pour tester l’envoi Discord en local, créer un fichier `.env.local` :
 
 ```bash
 DISCORD_WEBHOOK_URL=https://discord.com/api/webhooks/...
+VITE_SITE_URL=https://super-garde.fr
 ```
 
 Le serveur Vite expose alors aussi `/api/contact` en développement.
+
+`VITE_SITE_URL` sert aux balises SEO, au lien canonique, à `robots.txt` et à `sitemap.xml`. En production Netlify, la variable `URL` est aussi prise en compte automatiquement si `VITE_SITE_URL` n’est pas définie.
 
 ## Envoyer les demandes de contact vers Discord
 
