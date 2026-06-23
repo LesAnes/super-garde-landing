@@ -215,7 +215,7 @@ function App() {
             onSubmit={handleContactSubmit}
           >
             <label className="text-sm font-medium" htmlFor="email">
-              Email professionnel
+              Email
             </label>
             <div className="mt-3 flex flex-col gap-3 sm:flex-row">
               <Input
@@ -235,7 +235,7 @@ function App() {
               </Button>
             </div>
             <p className="mt-3 min-h-5 text-sm text-muted-foreground" aria-live="polite">
-              {status === "success" && "Merci, votre demande a bien été envoyée sur Discord."}
+              {status === "success" && "Merci, votre demande a bien été envoyée."}
               {status === "error" && "Impossible d’envoyer la demande pour le moment."}
               {status === "missing-config" && "Ajoutez DISCORD_WEBHOOK_URL côté serveur pour activer l’envoi Discord."}
             </p>
